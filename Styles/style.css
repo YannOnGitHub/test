@@ -1,0 +1,280 @@
+body{
+  font-family: helvetica;
+
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  top: 0;
+  border-radius: 0px 0px 24px 24px;
+  -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.22);
+  -moz-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.22);
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.16);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px)
+
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+nav li{
+  float: left;
+  display: block;
+}
+
+nav ul a {
+  display: block;
+  text-decoration: none;
+  color:#448FFF;
+  transition: 0.2s;
+}
+
+nav ul a:hover{
+  color: #1D00FF;
+  transition: 0.2s;
+}
+
+#titre_nav{
+  font-weight: normal;
+  font-size: 1.2em;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-left: 40px;
+  color: #448FFF;
+  text-decoration: none;
+}
+
+#logo_image{
+  height: 48px;
+  width: 48px;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.22);
+  -moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.22);
+  box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.22);
+}
+
+.logo_li{
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-25%, 0%);
+  padding-right: 48px;
+}
+
+.liens_nav{
+  float: right;
+  margin-right: 40px;
+
+}
+#hellopage1{
+
+
+}
+#hellopage{
+  height: 100vh;
+  width: 100%;
+  z-index: 2;
+  -webkit-box-shadow: inset 0px -100px 20px -98px rgba(0,0,0,0.3);
+  -moz-box-shadow: inset 0px -100px 20px -98px rgba(0,0,0,0.3);
+  box-shadow: inset 0px -100px 20px -98px rgba(0,0,0,0.3);
+  background-image: url("/images/carré.png");
+  background-repeat: repeat;
+  z-index: 1;
+
+
+}
+
+#hello{
+  font-size: 1000%;
+  font-weight: bold;
+  color: #448FFF;
+  text-align:center;
+  margin-bottom: 0px;
+  margin-top: 0;
+  padding-top: 22vh;
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.22);
+}
+#from{
+  font-weight: lighter;
+  color: #448FFF;
+  text-align: center;
+  font-size: 2em;
+  top: 0px;
+  margin-top:0px;
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.22);
+}
+
+#abstract{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 30vh;
+  z-index: -1;
+}
+
+#apropospage{
+  height: 100vh;
+  z-index: -1;
+}
+#apropospage h2{
+  display: absolute;
+  font-size: 4em;
+  margin-top: 0;
+  padding-top: 10vh;
+  padding-left: 40px;
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.22);
+  color: #448FFF;
+}
+#contactpage{
+  height: 716px;
+  display: flex;
+
+  background-image: url(https://image.noelshack.com/fichiers/2018/27/2/1530626321-fond.png);
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: top 0px top 0px;
+  background-size:  200vh, 200vh;
+  -webkit-box-shadow: inset 0px 100px 20px -98px rgba(0,0,0,0.3);
+  -moz-box-shadow: inset 0px 100px 20px -98px rgba(0,0,0,0.3);
+  box-shadow: inset 0px 100px 20px -98px rgba(0,0,0,0.3);
+
+
+
+}
+#contact{
+
+  width: 560px;
+  height: 358px;
+  background-image: url(https://image.noelshack.com/fichiers/2018/27/2/1530619683-carres.png);
+
+  border-radius: 20px;
+
+  background-size: 14vh;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: right 0px bottom 0px;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px)
+
+
+
+
+}
+#tem{
+  margin: auto;
+  display: table-cell; /* comportement visuel de cellule */
+  vertical-align: middle;
+  width: 560px;
+  height: 358px;
+
+
+
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.22);
+  -moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.22);
+  box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.22);
+  background-color: rgba(255,255,255,0.5);
+
+
+}
+
+#bordgauche{
+  width: 560px;
+  height: 358px;
+  background-image: url(https://image.noelshack.com/fichiers/2018/27/2/1530620260-bordgauche.png);
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+  background-size: 5vh;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: left 0px top 0px;
+
+}
+
+#bordgauche p{
+  padding-left: 40px;
+  filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.2));
+}
+/*#tem{
+
+  height: 179px;
+  background-color: red;
+  margin-bottom: 0;
+}*/
+a{
+  text-decoration: none;
+  color: black;
+  z-index: 1;
+}
+
+#name{
+  padding-top: 30px;
+  font-size: 3.5em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+#iut{
+  font-size: 1.4em;
+  margin-top: 8px;
+  margin-bottom: 25px;
+}
+#mail{
+  font-size: 1.4em;
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-weight: lighter;
+  text-decoration: none;
+
+}
+#mail a{
+  text-shadow: 0px 0px 1px rgba(0,0,0,0);
+  transition: 0,2s;
+}
+
+#mail a:hover{
+  text-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+  transition: 0.2s;
+}
+
+#contact ul li a img{
+  height: 50px;
+  -webkit-filter: drop-shadow(0px 0px 4px rgba(0,0,0,0) );
+  filter: drop-shadow(0px 0px 4px rgba(0,0,0,0));
+  transition: 0.2s;
+}
+#contact ul li a img:hover{
+  -webkit-filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.3) );
+  filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.3));
+  transition: 0.2s;
+}
+
+#contact ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+#contactpage h2{
+  position: absolute;
+  font-size: 4em;
+  border-radius: 70px;
+  margin-left: 40px;
+  color: white;
+  text-shadow: 0px 0px 10px rgba(255,255,255,0.2);
+  transition: 0.2s;
+}
+#contactpage h2:hover{
+  text-shadow: 0px 0px 10px rgba(255,255,255,0.3);
+  transition: 0.2s;
+}
+
